@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <title>kanekipos2 d2Helper</title>
+    </head>
+
+    <body>
+
+        <div>
+            Принимать игру автоматически?
+            <input type="checkbox" id="autoAccept">
+
+            <div id='acNextStep' class='acns'>
+                Написать вконтакте?
+                <input type="checkbox" id="vkWrite"> <br>
+                <div id='vkIDBlock' class='acns'>
+                    vk ID
+                    <input type='text' id='idVK'> <br>
+                    <a href='https://vk.com/im?media=&sel=-205312904'>Необходимо сюда написать любое сообщение</a>
+                </div>
+                Пикнуть героя автоматически?
+                <input type="checkbox" id="autoPick">
+            </div>
+        </div>
+
+        <div>
+            Кнопка скрытия GUI
+            <input type="button" value="NONE" id="hidegui">
+        </div>
+
+        <div>
+            <input type="submit" id="submit" value="Подтвердить настройки">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

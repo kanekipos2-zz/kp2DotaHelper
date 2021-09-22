@@ -1,0 +1,19 @@
+{
+  "name": "kp2dotahelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "kanekipos2",
+  "license": "ISC",
+  "dependencies": {
+    "dota2-gsi": "^1.0.2",
+    "electron": "^14.0.0",
+    "node-global-key-listener": "^0.0.13",
+    "request": "^2.88.2",
+    "ws": "^8.2.1"
+  }
+}
